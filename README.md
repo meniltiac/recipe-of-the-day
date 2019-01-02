@@ -20,7 +20,7 @@ different port to run your server on, you'll need to update the fetch url
 code in `recipe-of-the-day/frontend/src/components/RecipeList` so that the
 React app interfaces with the flask app.
 
-_Before the app will work_, you'll need to add a `key.py` file in your
+**Before the app will work**, you'll need to add a `key.py` file in your
 `recipe-of-the-day/api/` directory with your RapidApi key. To do this, go to the
 [RapidAPI Spoonacular docs](https://rapidapi.com/spoonacular/api/recipe-food-nutrition)
 and sign up for free for that service. In the API Test Endpoint section of the
