@@ -1,0 +1,85 @@
+/*
+INDEX.css should be used for overarching styles for the site, not specifically
+tied to components
+
+colorscheme
+terra cotta: #E26D5A
+white: #fff
+china rose: #AB4E68
+dark puce: #533745
+deep puce: #AF5D63
+ */
+ 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Seravek", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5em;
+  /*base font size*/
+  font-size: 16px;
+  background-color: #FFFFFF;
+  color: #533745;
+  padding-top: 125px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #AB4E68;
+}
+
+.btn, button {
+    background-color: #AB4E68;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    outline: none;
+}
+
+.btn:hover,
+button:hover {
+    cursor: pointer;
+    outline: none;
+    background-color: #773648;
+}
+
+input {
+    height: 1.5em;
+    font-size: 2.2em;
+    text-align: left;
+    width: 100%;
+    padding: 18px 20px;
+}
+
+input:focus {
+    outline-color: #AF5D63;
+}
